@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+}
+.nav{
+    /* font-family: mainFont; */
+  position: fixed;
+    display:flex;
+    flex:1;
+    /* align-items: flex-start; */
+    justify-content: space-between;
+    align-items: center;
+    min-height: 70px;
+    width:100vw;
+  /* gap:10px; */
+    background-color: #000000;
+
+   }
+#Cname{
+    margin-left: 20px;
+}
+   #navitems{
+    display:flex;
+    margin-right: 20px;
+    /* flex:1; */
+    justify-content: space-around;
+    align-items: center;
+    gap:20px;
+   }
+
+a{
+
+    font-size: 24px;
+    text-decoration: none;
+      color:#ffffff;
+}
+
+/* Section1 */
+.section1{
+    
+    padding:0px 0px 100px 20px;
+    display:flex;
+    flex:1;
+    justify-content: space-between;
+    align-items: center;
+
+}
+button{
+
+background-color: #000000;
+color: #ffffff;
+
+
+}
+#head1{
+padding: 135px 0px 20px 0px;
+}
+p{
+    padding: 0px 0px 20px 0px;
+}
+
+#pic1{
+    padding:150px 20px 0px 50px;
+    width:350px;
+    height: 450px;
+}
+
+
+
+/* images */
+#sect2{
+    display:flexbox;
+   
+
+    justify-content: space-between;
+
+    align-content: stretch;
+    padding:20px;
+}
+fleximg{
+    padding:20px;
+}
+.flexImages{
+    padding: 20px 20px 20px 0px;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+#sect2>div>div{
+    width:33%;
+    align-self:center ;
+}
